@@ -1,0 +1,52 @@
+Name: DIYAA YADAV
+SID: 1711060
+CCID: DIYAA
+ANONYMOUS ID : 1000319371
+
+COURSE: CMPUT 275
+TERM : WINTER 2023
+
+ASSIGNMENT PART 2
+
+INCLUDED FILES : 
+    /server 
+    1) digraph.cpp
+    2) digraph.h
+    3) dijkstra.cpp
+    4) dijkstra.h
+    5) server.cpp
+    6) wdigraph.h
+    7) edmonton-roads-2.0.1.txt
+    8) Makefile 
+
+    /soln
+    1) README
+    2) Makefile
+
+RUNNING INSTRUCTIONS : 
+    In the server directory run make clean just in case any executable files and inpipe outpipe files are still in the directory. 
+    run make clean first. 
+    then run make in terminal. 
+
+    move to the soln directory. open two separate terminals
+    type ./server/server in the first terminal
+    type python3 client/client.py in the second terminal. 
+
+
+    -> press W/S/A/D to move up/down/left/right the patch that is displayed in the window,  respectively;
+    -> press R to remove all routes and selected points on the map;
+    -> press Q and E to respectively zoom in and out on the map, keeping the mouse cursor at its previous position;
+    -> click left mouse button to select current point as the start or end point of a trip;
+    -> drag left mouse button to scroll around on the map.
+
+    -> select the start and end points of the trip
+
+    -> to exit the program, simply close the plotter/ map. 
+
+
+ACKNOWLEDGEMENT : 
+    INTRO LABS on eclass
+    reader/writer and server Makefile code from Lecture 17 on github. 
+
+    Aiden Peacock for helping out in setting the connection between the program and pygame plotter 
+        and also for helping out with reading in the bytes and processing it. 
